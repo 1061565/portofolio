@@ -1,0 +1,30 @@
+p {
+    color: white;
+    background-color: pink; 
+    margin: 10px;
+    padding: 10px;
+    border: white solid 10px;
+    font-size: 20px; 
+  }
+  p2 {
+   border: white solid 10px; 
+  }
+  
+  
+  h1 {background-color: pink;
+  front-family: "Times New Roman"; }
+  h2 {background-color: pink;}
+  a {background-color: pink;}
+  
+  /*Body is hele pagina/inhoud!*/
+  
+  body {
+    Margin 10px;
+    background-color: pink;
+    color: white;
+  font-family: Arial;
+  }
+  
+  img {
+    Width: 300px;
+  }
