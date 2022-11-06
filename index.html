@@ -8,28 +8,43 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <nav>
         <a href="#Hobby's">Mijn hobby's</a>
-      <br>
       <a href="#Wat ik wil leren">Wat ik wil leren</a>
-      </br>
-      </header>
-      <br>
-      <nav>
-      <h1>Welkom mijn naam is Susan</h1>
       
-      <p>Ik ben 19 jaar en woon in Nieuw-Lekkerland.</p>
+    </nav>
       <br>
-       
-        <img src="https://cataas.com/cat/fat"> 
-        
+      <header>
+      <a class="menu-link box one" href="hobby's">Hobby's</a>
+      <a class="menu-link box two" href="Wat ik wil leren">Wat ik wil leren</a>
+
+      <nav>
+        <ul id="mainMenu">
+          <li><a href="home.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="support.html">Support</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </nav>
+       
+      </header>
       <section>  
       <main>
+        <h1>Welkom, ik ben Susan</h1>
+      
+      <p1>Ik ben 19 jaar en woon in Nieuw-Lekkerland.</p>
+      <br>
+      <img src="https://cataas.com/cat/fat"> 
+      <br>
+      <br>
+      <br>
       <h2 id="Hobby's">Hobby's</h2>
         
       <p2>
-        <li> Gamen </li>
+        <h5> Gamen: </h5>
         <table>
           <tr>
             <th> Naam </th>
@@ -52,13 +67,59 @@
       </p2>
       </section>
         
-      
-      <h2 id="Wat ik wil leren">Wat wil ik leren?</h2>
+      <br>
+      <br>
+      <br>
+      <h3 id="Wat ik wil leren">Wat wil ik leren?</h3>
       <p>Op deze opleiding ben ik van plan om mijn skills te verbreden door te leren coderen en programmeren.</p1>
       </main>
       <footer>
-      <h3>Socials</h3>
+        <br>
+        <br>
+        <br>
+      <h4>Socials</h4>
       <a href="https://instagram.com/susanxch3n?igshid=YmMyMTA2M2Y=">Instagram</a> 
+      <br>
+      <br>
+      <br>
+      <h5> Contact </h5>
+      <p>
+      <form action="bedankt.html">
+
+        <div class="formField">
+        <label for="firstName">Voornaam</label>
+        <input type=" text" id=" firstName" name="firstName" placeholder="enter your name" required>
+        </div>
+        <div class="formField">
+        <label for="birthDate">Geboortedatum</label>
+        <input type="date" id="birthDate" name="birthDate">
+        </div>
+        <div class="formField">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="yourmail@outlook.com">
+        </div>
+        <div class="formField">
+        <label for="contactType">Reden van contact</label>
+        <select name="contactType" id="contactType">
+
+        
+        <option value="question">Ik heb een vraag </option>
+        <option value="apply">Ik heb een feedback</option>
+        <option value="tip"> Anders.. </option>
+
+      </select>
+      <input type="checkbox" id="wel" name="wel" value="wel">
+      <label for="wel"> Ik ken je persoonlijk </label>
+      <input type="checkbox" id="niet" name="niet" value="niet">
+      <label for="niet"> Ik ken je waarschijnlijk niet </label>
+      
+      <br>
+      <button type="submit">Verstuur</button>
+<br>
+<br>
+      //radiobutton is ook een optie//
+      </form>
+      </p>
       </footer>
 </body>
 </html>
